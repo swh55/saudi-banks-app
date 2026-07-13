@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+build/
+dist/
+*.exe
+*.apk
+*.aab
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific (private source)
+src/**/*.php
+src/**/*.ts
+src/**/*.js
+lib/**/*.dart
+Assets/**/*.cs
+designs/**/*.psd
+designs/**/*.ai
+designs/**/*.dxf
+*.db
+*.sqlite
